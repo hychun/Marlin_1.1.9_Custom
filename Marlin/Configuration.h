@@ -542,16 +542,16 @@
 
   // Center-to-center distance of the holes in the diagonal push rods.
   //#define DELTA_DIAGONAL_ROD 319.5 // mm
-  #define DELTA_DIAGONAL_ROD 311.0 // mm      // 바닥에 편평도를 고려하여 조정 (현재:약간 파여있음, 나중에 볼록해지는 경우 수치를 높일것)
+  #define DELTA_DIAGONAL_ROD 315.4 // mm      // 바닥에 편평도를 고려하여 조정   // 315.4
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 302.3  // get this value from auto calibrate
+  #define DELTA_HEIGHT 298.6  // get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
   // Horizontal distance bridged by diagonal push rods when effector is centered.
   //#define DELTA_RADIUS 174.1 //mm  Get this value from auto calibrate
-  #define DELTA_RADIUS 163.9 //mm  Get this value from auto calibrate
+  #define DELTA_RADIUS 167.3 //mm  Get this value from auto calibrate       // 167.3
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
